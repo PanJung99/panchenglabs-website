@@ -47,7 +47,7 @@ function PrivacyPage({
         </div>
       </header>
       <main className="legal-content">
-        <a className="legal-back" href="/">
+        <a className="legal-back" href="./">
           <ArrowLeft aria-hidden="true" />
           {copy.privacy.backHome}
         </a>
@@ -101,4 +101,3 @@ export default function App() {
     </div>
   );
 }
-

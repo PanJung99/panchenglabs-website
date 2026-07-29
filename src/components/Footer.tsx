@@ -25,10 +25,9 @@ export function Footer({ content }: FooterProps) {
         <div className="footer-bottom">
           <span>© 2026 Hebei Pancheng Technology Co., Ltd.</span>
           <span>{content.rights}</span>
-          <a href="/privacy.html">{content.privacy}</a>
+          <a href="./privacy.html">{content.privacy}</a>
         </div>
       </div>
     </footer>
   );
 }
-
